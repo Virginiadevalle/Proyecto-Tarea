@@ -1,0 +1,155 @@
+@media (min-width: 768px) {
+  .contenedor-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .logo {
+    margin: 0;
+  }
+  .menu {
+    display: flex;
+    flex-direction: row;
+  }
+  .menu-option {
+    padding:0 15px;
+    font-size: 16px;
+  }
+  .btn-contenedor1 {
+    margin: 0;
+  }
+
+  .art-1 {
+    display: inline-flex;
+    flex-basis: 50%;
+  }
+  .texto {
+    flex-basis: 50%;
+  }
+
+  .titulo {
+    font-size: 40px;
+  }
+  .img-contenedor {
+    display: flex;
+    flex-basis: 50%;
+  }
+  .img-sect-1 {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+  }
+  .img-contenedor {
+  }
+
+  .texto-2 {
+    flex-basis: 50%;
+  }
+  .texto-sect-2 {
+    margin-top: 60px;
+  }
+  .titulo-sect-2 {
+    font-size: 13px;
+  }
+  .enlace-sect-2 {
+    font-size: 13px;
+  }
+  .contenedor-articles-sect-2 {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 40px 40px 40px;
+    align-items: stretch;
+  }
+  .texto-contenedor-sect-2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-sect-2 {
+    flex-basis: calc(100% / 4);
+    padding: 20px;
+  }
+  .titulo-sect-2 {
+    margin-bottom: 20px;
+  }
+
+  .sect-corta {
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 40px;
+  }
+
+  .titulo-corto {
+    margin: 0;
+  }
+
+  .section-3 {
+    margin-top: 20px;
+  }
+  .card-sect-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .img-contenedor-sect-3 {
+    padding: 0;
+    max-width: 40%;
+  }
+
+  .img-sect-3 {
+    object-fit: cover;
+    aspect-ratio: 1/1;
+  }
+
+  .card-contenido {
+    flex-basis: 60%;
+    background-color: #231f20;
+    padding: 0;
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+
+  .card-textos {
+    flex-direction: row;
+  }
+
+  .titulo-card-texto {
+    font-size: 15px;
+  }
+
+  .texto-1-card {
+    padding: 60px;
+  }
+
+  .contenedor-footer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    font-size: 14px;
+  }
+  .menu-footer-item1 {
+    font-size: 14px;
+  }
+  .parf-texto {
+    font-size: 12px;
+  }
+  .enlace-cards {
+    font-size: 10px;
+  }
+
+  .linea {
+    max-width: 600px;
+  }
+
+  /**/
+  .section-main-item{
+    display: flex;
+  }
+  .card-holidays {
+    flex-basis: calc(100% / 3);
+  }
+}

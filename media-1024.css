@@ -1,0 +1,18 @@
+@media (min-width: 1024px) {
+  .texto-1-card {
+    padding: 80px;
+  }
+  .card-contenido {
+    padding-top: 60px;
+  }
+  .texo-sect-3-card {
+    font-size: 40px;
+  }
+  .titulo {
+    margin-top: 60px;
+  }
+  .card-holidays {
+    flex-basis: calc(100% / 4);
+  }
+
+}
