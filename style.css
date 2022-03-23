@@ -1,536 +1,333 @@
-*{
-    font-family: 'Poppins', sans-serif;
-}
-.button{
-    text-transform: uppercase;
-    font-size: 10px;
-    padding: 8px;
-    border-radius: 3px;
-    background-color: #F7941E;
-    border: 1px solid #F7941E;
+* {
+  font-family: 'Poppins', sans-serif;
 }
 
-.logo{
-    font-size: 50px;
+/*
+Header Start
+*/
+.logo {
+  font-size: 50px;
+  font-family: 'Homemade Apple', cursive;
+  text-align: center;
 }
 
-.contenedor-art-3{
-    display: flex;
-    justify-content: center;
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
 }
-.contenedor-car-3{
-    display: flex;
-    justify-content: center;
+.menu-option {
+  padding-bottom: 10px;
 }
+/*
+Header end
+*/
 
+/*
+Section main Start
+*/
+.section-main-content {
+  padding: 60px;
+  background-color: #f1f1f2;
+}
+.img-contenedor {
+  line-height: 0;
+}
+/*
+Section main  End
+*/
 
-@media (min-width:320px){
-    .logo{
-        font-family: 'Homemade Apple', cursive;
-        text-align: center;
-   }
-   
-   .menu{
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-       list-style: none;
-       padding-left: 0;
-       margin: 0;
-   }
-   .menu-option{
-       padding-bottom: 10px;
-   }
-   .btn-contenedor{
-       display: flex;
-       justify-content: start;
-       margin-bottom: 10px;
-   }
-   .btn-contenedor1{
-        display: flex;
-        justify-content: center;
-        margin-bottom: 10px;
-   }
-   .button1{
-       text-transform: uppercase;
-       font-size: 10px;
-       background-color: transparent;
-       color: #F7941E;
-       padding: 8px;
-       border: 1px solid #F7941E;
-       border-radius: 3px;
-   }
-    .img-contenedor{
-       display: none;
-    }
-   .art-1{
-       display: flex;
-       justify-content: center;
-   }
-   .texto{
-    text-align: center;
-    padding: 60px;
-    background-color:  #F1F1F2;
-   }
-
-   .titulo{
-       text-align: initial;
-       font-size: 35px;
-       margin: 0;
-   }
-   .parrafo{
-        font-size: 13px;
-        margin: 0;
-        padding-top: 10px;
-        margin-bottom: 30px;
-        text-align: initial;
-        
-   }
-
-   .art-2{
-       margin-top: 2px;
-       display: flex;
-       justify-content: center;
-    }
-   
-   .texto-2{
-    
-        text-align: justify;
-        padding: 60px;
-        background-color:  #F1F1F2;
-   }
-   .texto-sect-2{
-       margin-top: 10px;
-       text-align: center;
-       font-size: 12px;
-   }
-   .titulo-sect-2{
-       font-size: 19px;
-       margin: 0;
-   }
-
-   .contenedor-articles-sect-2{
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-   }
-   
-
-   .img-sect-2{
-       aspect-ratio: 1/1;
-       object-fit: cover;
-   }
-   .card-sect-2{
-       padding-bottom: 40px;
-   }
-   .texto-contenedor-sect-2{
-       display: flex;
-       justify-content: space-between
-   }
-   
-   .enlace-sect-2{
-       text-decoration: none;
-       color: #000;
-       padding-top: 3px;
-
-   }
-
-   .sect-corta{
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-       background-color: #F7941E;
-   }
-
-    .titulo-corto{
-        margin: 0;
-        margin-top: 15px;
-        
-
-    }
-
-    .contenedor-texto-sect-corta{
-        font-size: 20px;
-    }
-    .span-corto{
-        line-height: 2;
-    }
-
-    .contenedor-btn-sect-corta{
-        display: flex;
-        flex-direction: row;
-        
-    }
-    .btn-contenedor{
-        padding: 5px;
-    }
-    .button2{
-        border: 1px solid #231F20;
-        background-color: #231F20;
-        color: #fff;
-        text-transform: uppercase;
-        font-size: 9px;
-        padding: 9px;
-        border-radius: 3px;
-
-    }
-
-    .button3{
-        border: 1px solid #231F20;
-        background-color: transparent;
-        color: #231F20;
-        text-transform: uppercase;
-        font-size: 9px;
-        padding: 9px;
-        border-radius: 3px;
-    }
-
-    .section-3{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .texto-titulo-3{
-        margin-top: 20px;
-        font-size: 12px;
-        text-align: center;
-    }
-
-    .titulo-sect-3{
-        margin: 0;
-
-        font-size: 19px;
-    }
-
-    .card-sect-3{
-        display: flex;
-        flex-direction: column;
-       
-    }
-    .img-contenedor-sect-3{
-        display: flex;
-        justify-content: center;
-        padding-top: 10px;
-    }
-    .img-sect-3{
-        object-fit: cover;
-        aspect-ratio: 1/1;
-        
-    }
-
-    .card-contenido{
-        color: #fff;
-        padding: 10px 0px 10px 10px;
-        background-color: #231F20;
-    }
-
-    .card-span{
-        font-size: 10px;
-    }
-
-    .texo-sect-3-card{
-        font-size: 35px;
-        margin: 0px ;
-        margin-bottom: 30px;
-    }
-
-    .enlace-sect-3{
-       text-decoration: none;
-        color: #fff;
-        font-size: 13px;
-        text-transform: capitalize;
-    }
-
-    .card-textos{
-        display: flex;
-        flex-direction: column;
-    }
-    .texto-1-card{
-        padding: 30px;
-    }
-    .titulo-card-texto{
-        font-size: 20px;
-    }
-
-    .parf-texto{
-        text-align: justify;
-    }
-
-    .enlace-cards{
-        text-decoration: none;
-        color: #000;
-        font-size: 13px;
-    }
-
-    .contenedor-footer{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .menu-footer{
-        display: flex;
-        justify-content: center;
-        list-style: none;
-        padding: 0px;
-        color: #000;
-        
-    }
-    .menu-footer-item1{
-        padding: 20px;
-        font-size: 18px;
-        text-transform: bold;
-    }
-
-    .menu-footer-item{
-        padding: 20px;
-        font-size: 18px;
-        
-    }
-    .item{
-        color: #000;
-    }
-    .footer{
-        text-align: center;
-        padding-bottom: 30px;
-
-    }
-    .logo-footer{
-        text-align: center;
-        color: #F7941E;
-        font-family: 'Homemade Apple', cursive;
-        
-    }
-    .linea{
-        max-width: 300px;
-    }
-
-    .enlace-footer{
-        text-decoration: none;
-        color: #000;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*
+Section Holidays  Start
+*/
+.section-holidays {
+  padding: 90px 0;
+}
+.section-holidays-title {
+  font-size: 32px;
+  margin: 0 0 15px 0;
+}
+.section-holidays-subtitle {
+  font-size: 18px;
+  margin-bottom: 60px;
 }
 
-@media (min-width: 768px){
-    .contenedor-header{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    .logo{
-        margin: 0;
-    }
-    .menu{
-        display: flex;
-        flex-direction: row;
-        
-
-    }
-    .menu-option{
-        padding: 0;
-        padding-right: 10px;
-        font-size: 13px ;
-    }
-    .btn-contenedor1{
-        margin: 0;
-    }
-
-    .art-1{
-       display: inline-flex;
-       flex-basis: 50%;
-    }
-    .texto{
-        flex-basis: 50%;
-        
-    }
-
-    .titulo{
-        font-size: 40px;
-    }
-    .img-contenedor{
-        display: flex;
-          flex-basis: 50%;
-    }
-    .img-sect-1{
-        aspect-ratio: 1/1;
-        object-fit: cover;
-       
-    }
-    .img-contenedor{
-      
-    }
-
-    .texto-2{
-        flex-basis: 50%;
-    }
-    .texto-sect-2{
-        margin-top: 60px;
-
-    }
-    .titulo-sect-2 {
-        font-size: 13px;
-    }
-    .enlace-sect-2{
-        font-size: 13px;
-    }
-    .contenedor-articles-sect-2{
-        display: flex;
-        flex-direction: row;
-        margin : 0px 40px 40px 40px;
-        align-items: stretch;
-       
-    }
-    .texto-contenedor-sect-2{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .card-sect-2{
-         flex-basis: calc(100% / 4);
-         padding: 20px;
-
-    }
-    .titulo-sect-2{
-        margin-bottom: 20px;
-    }
-    
-    .sect-corta{
-        flex-direction: row;
-        justify-content: space-evenly;
-        padding: 40px;
-    }
-
-    .titulo-corto {
-        margin: 0;
-        
-    }
-
-    .section-3{
-        margin-top: 20px;
-    }
-    .card-sect-3{
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      max-width: 758px;
-      margin-top: 30px;
-    }
-    .img-contenedor-sect-3{
-        padding: 0;
-        max-width: 30%;
-    }
-
-    .img-sect-3{
-        object-fit: cover;
-        aspect-ratio: 1/1;
-    }
-
-    .card-contenido{
-        flex-basis: 60%;
-        background-color:#231F20 ;
-        padding: 0;
-        padding-left: 30px;
-        padding-top: 30px;
-    }
-
-
-    .card-textos{
-        flex-direction: row;
-        
-    }
-
-    .titulo-card-texto{
-        font-size: 15px;
-    }
-
-    .texto-1-card{
-        padding: 60px;
-    }
-
-    .contenedor-footer{
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-        margin-top: 60px;
-        font-size: 14px;
-    }
-    .menu-footer-item1{
-        font-size: 14px;
-    }
-    .parf-texto{
-        font-size: 12px;
-    }
-    .enlace-cards{
-        font-size: 10px;
-    }
-
-    .linea{
-        max-width: 600px;
-    }
-
-
-
-
-
-
-
-
-
-
-
+.section-holidays-contain-cards {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1024px;
 }
 
-@media (min-width: 1024px) {
-    .card-sect-3{
-        max-width: 1000px;
-    }
+.card-holidays {
+  flex-basis: 50%;
+  padding: 0 15px;
+}
 
-    .texto-1-card{
-        padding: 80px;
-    }
-    .card-contenido{
-        padding-top: 60px ;
-    }
-    .texo-sect-3-card{
-        font-size: 40px;
-       
-    }
-    .titulo{
-       margin-top: 60px;
-    }
+.titulo-sect-2 {
+  font-size: 16px;
+  margin: 0;
+}
+.enlace-sect-2 {
+  text-decoration: none;
+  color: #000;
+  font-size: 12px;
+  padding-top: 3px;
+}
+/*
+Section Holidays  End
+*/
 
+/*
+Section Corta  Start
+*/
+
+.sect-corta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f7941e;
+  padding: 40px 0;
+}
+
+/*
+Section Corta  Start
+*/
+
+/*
+Section 3
+*/
+
+.section-3 {
+  padding: 60px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.texto-titulo-3 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.section-3-container {
+  max-width: 1024px;
+  padding: 0 15px;
+}
+
+.titulo-sect-3 {
+  margin: 0;
+  font-size: 19px;
+}
+
+.card-sect-3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.texto-1-card {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+  padding: 30px 0;
+}
+
+/*
+Section 3
+*/
+
+.contenedor-art-3 {
+  display: flex;
+  justify-content: center;
+}
+.contenedor-car-3 {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-contenedor {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 10px;
+}
+.btn-contenedor1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.art-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.titulo {
+  text-align: initial;
+  font-size: 35px;
+  margin: 0;
+}
+.parrafo {
+  font-size: 13px;
+  margin: 0;
+  padding-top: 10px;
+  margin-bottom: 30px;
+  text-align: initial;
+}
+
+.art-2 {
+  margin-top: 2px;
+  display: flex;
+  justify-content: center;
+}
+
+.texto-sect-2 {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.img-sect-2 {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.texto-contenedor-sect-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.titulo-corto {
+  margin: 0;
+  margin-top: 15px;
+}
+
+.contenedor-texto-sect-corta {
+  font-size: 20px;
+}
+.span-corto {
+  line-height: 2;
+}
+
+.contenedor-btn-sect-corta {
+  display: flex;
+  flex-direction: row;
+}
+.btn-contenedor {
+  padding: 5px;
+}
+.button2 {
+  border: 1px solid #231f20;
+  background-color: #231f20;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 9px;
+  padding: 9px;
+  border-radius: 3px;
+}
+
+.button3 {
+  border: 1px solid #231f20;
+  background-color: transparent;
+  color: #231f20;
+  text-transform: uppercase;
+  font-size: 9px;
+  padding: 9px;
+  border-radius: 3px;
+}
+
+.img-contenedor-sect-3 {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.img-sect-3 {
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+
+.card-contenido {
+  color: #fff;
+  padding: 10px 0px 10px 10px;
+  background-color: #231f20;
+}
+
+.card-span {
+  font-size: 10px;
+}
+
+.texo-sect-3-card {
+  font-size: 35px;
+  margin: 0px;
+  margin-bottom: 30px;
+}
+
+.enlace-sect-3 {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  text-transform: capitalize;
+}
+
+.card-textos {
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo-card-texto {
+  font-size: 20px;
+}
+
+.parf-texto {
+  text-align: justify;
+}
+
+.enlace-cards {
+  text-decoration: none;
+  color: #000;
+  font-size: 13px;
+}
+
+.contenedor-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-footer {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0px;
+  color: #000;
+}
+.menu-footer-item1 {
+  padding: 20px;
+  font-size: 18px;
+  text-transform: bold;
+}
+
+.menu-footer-item {
+  padding: 20px;
+  font-size: 18px;
+}
+.item {
+  color: #000;
+}
+.footer {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.logo-footer {
+  text-align: center;
+  color: #f7941e;
+  font-family: 'Homemade Apple', cursive;
+}
+.linea {
+  max-width: 300px;
+}
+
+.enlace-footer {
+  text-decoration: none;
+  color: #000;
 }
 
