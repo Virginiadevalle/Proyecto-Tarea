@@ -46,6 +46,9 @@ utlidades flex
 .d-flex {
   display: flex;
 }
+.d-flex-column{
+  flex-direction: column;
+}
 
 .justify-content-center {
   justify-content: center;
@@ -55,12 +58,16 @@ utlidades flex
   align-items: center;
 }
 
-.w-70 {
+.w-100 {
+  width: 100%;
+}
+
+/* .w-70 {
   width: 70%;
 }
 .w-30 {
   width: 30%;
-}
+} */
 
 /*
 utlidades margin
@@ -98,6 +105,18 @@ utlidades texto
 .text-justify {
   text-align: justify;
 }
+
+@media (min-width: 768px){
+  .w-70{
+    width: 70%;
+  }
+
+  .w-30 {
+    width: 30%;
+  }
+
+}
+
 
 @media (min-width: 1024px) {
   /*

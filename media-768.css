@@ -30,30 +30,28 @@
     flex-basis: 50%;
   }
 
-  .titulo {
-    font-size: 40px;
-  }
-  .img-contenedor {
+  .section-main-container-img {
     display: flex;
     flex-basis: 50%;
   }
-  .img-sect-1 {
+  .section-main-img {
     aspect-ratio: 1/1;
     object-fit: cover;
   }
-  .img-contenedor {
-  }
 
+  .titulo {
+    font-size: 40px;
+  }
   .texto-2 {
     flex-basis: 50%;
   }
   .texto-sect-2 {
     margin-top: 60px;
   }
-  .titulo-sect-2 {
+  .card-holidays-texto-titulo {
     font-size: 13px;
   }
-  .enlace-sect-2 {
+  .card-holidays-texto-enlace{
     font-size: 13px;
   }
   .contenedor-articles-sect-2 {
@@ -62,7 +60,7 @@
     margin: 0px 40px 40px 40px;
     align-items: stretch;
   }
-  .texto-contenedor-sect-2 {
+  .card-holidays-texto {
     display: flex;
     flex-direction: column;
   }
@@ -71,40 +69,40 @@
     flex-basis: calc(100% / 4);
     padding: 20px;
   }
-  .titulo-sect-2 {
+  .card-holidays-texto-titulo{
     margin-bottom: 20px;
   }
 
-  .sect-corta {
+  .section-contacto{
     flex-direction: row;
     justify-content: space-evenly;
     padding: 40px;
   }
 
-  .titulo-corto {
+  .section-contacto-contenedor-texto-titulo{
     margin: 0;
   }
 
-  .section-3 {
+  .section-blog{
     margin-top: 20px;
   }
-  .card-sect-3 {
+  .section-blog-container-card-principal {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-top: 30px;
   }
-  .img-contenedor-sect-3 {
+  .section-blog-container-card-principal-container {
     padding: 0;
     max-width: 40%;
   }
 
-  .img-sect-3 {
+  .section-blog-container-card-principal-container-img{
     object-fit: cover;
     aspect-ratio: 1/1;
   }
 
-  .card-contenido {
+  .section-blog-container-card-principal-contenedor-texto {
     flex-basis: 60%;
     background-color: #231f20;
     padding: 0;
@@ -112,15 +110,15 @@
     padding-top: 30px;
   }
 
-  .card-textos {
+  .section-blog-container-articulos-contenedor {
     flex-direction: row;
   }
 
-  .titulo-card-texto {
+  .section-blog-container-articulos-contenedor-articulo-titulo {
     font-size: 15px;
   }
 
-  .texto-1-card {
+  .section-blog-container-articulos-contenedor-articulo {
     padding: 60px;
   }
 
@@ -134,10 +132,10 @@
   .menu-footer-item1 {
     font-size: 14px;
   }
-  .parf-texto {
+  .section-blog-container-articulos-contenedor-articulo-parrafo {
     font-size: 12px;
   }
-  .enlace-cards {
+  .section-blog-container-articulos-contenedor-articulo-enlace {
     font-size: 10px;
   }
 
